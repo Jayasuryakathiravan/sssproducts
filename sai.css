@@ -1,0 +1,172 @@
+.color1 {color: #8c5d74;} */
+.color2 {color: #a78786;} */
+.color3 {color: #00203c;}
+.color4 {color: #166972;} */
+.color5 {color: #9dbbb6;}*/
+
+
+
+
+*{
+     margin: 0%;
+     padding: 0%;
+     box-sizing: border-box;
+    
+ }
+ .bgc{
+position: relative;
+margin-top: -7px;
+width: 100%;
+height: 100vh;
+display: flex;
+background-image: url(img/02.jpg);
+background-size: cover;
+}
+/* NAVIGATION-BARS  AND HERO CONTENT */
+.nav-bars{
+    padding: 20px;
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.nav-link{
+    margin-right: 200px;
+}
+.nav-link a{
+    padding-left: 50px;
+    text-decoration: none;
+    color: rgb(11, 1, 11);
+}
+.nav-link a:hover{
+    color:wheat;
+}
+/*HEROTEXT&COMPANYNAME_TEXT CSS */
+.hero-text{
+    margin-top: 180px;
+    height: auto;
+    position: absolute;
+    padding: 20px;
+   
+}
+/* COMPANY-NAME-TEXT */
+.company-name-text{
+    color: #780000;
+}
+
+
+
+/* VIEW-BTN CSS */
+.veiw-btn{
+        position:absolute;
+    margin-top: 350px;
+    padding-left: 40px;
+    
+    
+}
+.veiw-btn button{
+    width: 200px;
+    padding: 7px;
+    border-radius: 5px;
+    border-style: none;
+}
+.veiw-btn button:hover{
+    background-color:orange;
+    color: #780000;
+    cursor: pointer;
+}
+
+
+
+
+
+/* FOUNDER INFO */
+.founder-info{
+    margin-top: 2px;
+    display: flex;
+    width: 100%;
+    height: 600px;
+    background-color: black;
+}
+/* CORE CONTENT CSS*/
+.core-content{
+    display: block;
+    text-align: center;
+    align-items: center;
+}
+/* NEW ARRIVAL HEADING*/
+.new-arrival{
+    display: flex;
+    justify-content: center;
+}
+/* NEW ARRIVAL CARD SECTION*/
+.new-arrival-header{
+    display: flex;
+    justify-content: center;
+}
+.solarproduct-cardcontainer{
+   justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 4;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+.card{
+    border-radius: 5px;
+    justify-content: center;
+    width: 280px;
+    height: auto;
+    background-color:#00203c;
+    color: whitesmoke;
+}
+.card img{
+    border-radius: 5px;
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+.card-content button{
+    width: 100px;
+    height: auto;
+    padding: 5px;
+  border-radius: 5px;
+  border-style: none;
+  color: wheat;
+}
+.card-content button a{
+    text-decoration: none;
+    color: rgb(0, 24, 84);
+}
+.card-content button:hover{
+background-color: #8c5d74;
+}
+.card-content button:hover a{
+    color: #120000;
+}
+.card-content{
+   text-align: center;
+    padding: 15px;
+    margin-top: 0%;
+}
+.card-content h1{
+    font-size: large;
+}
+/* MOST-WANTED-PRODUCT-SECTION */
+.wantedheader{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
